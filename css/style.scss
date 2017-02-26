@@ -53,15 +53,17 @@ a {
 /* Header
 ------------------------------------------------------------*/
 
-
-.flexible-images {
-  max-width: 100%;
+.box {
+  background-image: url("../images/img_top.jpg");
   height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 @media screen and ( max-width:768px )
 {
-.flexible-images
+.box
 	{
 		height: 250px ;		/* 横幅 */
 	}
@@ -309,7 +311,7 @@ footer {
     text-decoration:none;
     display:block;
     text-align:center;
-    padding:8px 0 10px;
+    margin:0 auto;
     color:#fff;
     background-color:#49a9d4;
     border-radius:5px;
